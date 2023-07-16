@@ -1,25 +1,23 @@
 import React, { useState, useEffect } from "react";
+import InfoAboutPainting from "./InfoAboutPainting";
 
-const CatFact = () => {
-        const [fact, setFact] = useState([]);
+const RequestPaintingToServer = () => {
+        const [infoPainting, setInfoPainting] = useState([]);
         useEffect(() => {
         fetch("https://catfact.ninja/fact/")
          .then((response) => response.json())
          .then((data) => {
-            console.log(data);
-            setFact(data);
+            setInfoPainting(data);
             })
          .catch((err) => {
             console.log(err.message);
             });
         }, []);
         return (
-            <h1>
-               {fact.fact}
-            </h1>
+            <InfoAboutPainting infoPainting={infoPainting} />
             );
 }
 
 
 
-export default CatFact; 
+export default RequestPaintingToServer; 

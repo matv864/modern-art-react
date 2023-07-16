@@ -1,27 +1,24 @@
 import React from 'react';
 import Scanner from './Scanner';
+import RequestPaintingToServer from "./RequestPaintingToServer"
 
 
 class ThoughtsOfArtist extends React.Component{
     constructor(props){
         super(props)
-        this.state = {idOfPainting: null}
+        this.state = {idOfPainting : null}
+        this.setIdOfPainting = (idOfPainting) => {this.setState({idOfPainting : idOfPainting})}
+
+
     }
 
-
-
-
-
     render(){
-        if (this.state.idOfPainting == null){
-            return ( <Scanner handleScan={(id) => {this.setState({idOfPainting: id})}} /> )   
+        if (this.state.idOfPainting === null){
+            return ( <Scanner handleScan={this.setIdOfPainting} /> )   
         }
         else{
             return (
-                <div>
-                    <h1>it's thoughts-of-artist</h1>
-                    <h1>{this.state.idOfPainting}</h1>
-                </div>
+                <RequestPaintingToServer idOfPainting={this.idOfPainting} />
             )
         }
     }

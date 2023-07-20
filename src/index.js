@@ -22,7 +22,5 @@ ReactDOM.render(
 
 
 root.render(
-  <React.StrictMode>
     <ManagePage/>
-  </React.StrictMode>
 )

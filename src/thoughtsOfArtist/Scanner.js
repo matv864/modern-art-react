@@ -6,7 +6,6 @@ class Scanner extends Component {
     
     
     super(props)
-    console.log(props)
     this.state = {
       result: null,
     }
@@ -27,6 +26,10 @@ class Scanner extends Component {
 
 
   render(){
+    const previewStyle = {
+      height: 300,
+      width: 300
+    };
 
     return(
       <div>
@@ -35,6 +38,7 @@ class Scanner extends Component {
           facingMode={"environment"}
           onError={this.handleError}
           onScan={this.handleScan}
+          style={previewStyle}
         />
           <div>
             {this.state.text}

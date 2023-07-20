@@ -6,8 +6,12 @@ import RequestPaintingToServer from "./RequestPaintingToServer"
 class ThoughtsOfArtist extends React.Component{
     constructor(props){
         super(props)
+        
         this.state = {idOfPainting : null}
-        this.setIdOfPainting = (idOfPainting) => {this.setState({idOfPainting : idOfPainting})}
+        this.setIdOfPainting = (idOfPainting) => {
+            console.log("paint", idOfPainting)
+            this.setState({idOfPainting : idOfPainting})
+    }
 
 
     }

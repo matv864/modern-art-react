@@ -2,12 +2,15 @@ import React from "react";
 
 
 import "./MainPage.css"
+import MainSlide from "./MainSlide";
+import WhoIsSlide from "./WhoIsSlide";
 
 
 function MainPage (){
     return (
-        <div className="main-page">
-            
+        <div className="flex-container">
+            <MainSlide/>
+            <WhoIsSlide/>
         </div>
     )
     }

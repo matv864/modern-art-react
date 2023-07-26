@@ -1,3 +1,6 @@
-.main-page{
-    background: #ff5555;
+.flex-container{
+    display: flex;
+    background: #f02030;
 }
+
+

@@ -1,0 +1,27 @@
+.main-slide{
+    display: grid;
+    grid-template-columns: auto;
+    background: #00F050;
+    padding-top: 20px;
+    width: 300px; /*bad for PC*/
+}
+
+.main-title{
+    padding: 20px;
+    background: #ffcccc;
+    width: 100px; /*bad for PC*/
+    border-radius: 10px;
+}
+
+.main-info-grid{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-info-flex{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

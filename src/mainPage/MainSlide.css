@@ -1,15 +1,21 @@
 .main-slide{
+
     display: grid;
     grid-template-columns: auto;
-    background: #00F050;
+    background: url("./PinkBackground.svg");
+    background-size: 100px 82px;
     padding-top: 20px;
-    width: 300px; /*bad for PC*/
+    width: 400px; /*bad for PC*/
+    height: 300px;
 }
 
 .main-title{
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #ffcccc;
     width: 100px; /*bad for PC*/
+    height: 50px;
     border-radius: 10px;
 }
 

@@ -3,7 +3,9 @@ function MainSlide(){
     return (
         <div className="main-slide">
             <div className="main-title">
+                <div>
                 ЦИ
+                </div>
             </div>
             <div className="main-info-grid">
                 <div className="main-info-flex">

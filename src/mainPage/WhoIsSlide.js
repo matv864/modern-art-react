@@ -5,7 +5,9 @@ function WhoIsSlide(){
     return (
         <div className="whois-slide">
                 <div className="whois-title">
+                    <div>
                     Кто мы такие?
+                    </div>
                 </div>
                 <div className="whois-info-grid">
                     <div className="whois-info-flex">

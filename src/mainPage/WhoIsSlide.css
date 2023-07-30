@@ -3,13 +3,17 @@
     grid-template-columns: auto;
     background: #00F050;
     padding-top: 20px;
-    width: 300px; /*bad for PC*/
+    width: 400px; /*bad for PC*/
+    height: 300px;
 }
 
 .whois-title{
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #d6ffcc;
-    width: 100px; /*bad for PC*/
+    width: 150px; /*bad for PC*/
+    height: 50px;
     border-radius: 10px;
 }
 

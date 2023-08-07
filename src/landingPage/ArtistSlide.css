@@ -1,12 +1,11 @@
 .artist-slide{
-
     display: grid;
     grid-template-columns: auto;
     background: url("./ArtistSlide.svg") no-repeat;
     background-size: 100%;
     padding-top: 20px;
     width: 100%; /*bad for PC*/
-    height: 300px;
+    height: 75vw;
 }
 
 .artist-title{
@@ -39,4 +38,9 @@
     padding: 5%;
 }
 
+@media (min-width: 600px) {
+    .artist-slide{
+        height: 30vw;
+    }
+  }
 

@@ -18,7 +18,7 @@ function MainSlide(){
                     </div>
                 </div>
                 <div className="main-info-flex">
-                    <a href="https://google.com" className="btn btn-dark">меню сайта</a>
+                    <a href="https://google.com" className="btn btn-dark">меню</a>
                 </div>
             </div>
         </div>

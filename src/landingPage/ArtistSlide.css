@@ -1,35 +1,42 @@
-.whois-slide{
+.artist-slide{
+
     display: grid;
     grid-template-columns: auto;
-    background: #00F050;
+    background: url("./ArtistSlide.svg") no-repeat;
+    background-size: 100%;
     padding-top: 20px;
-    width: 400px; /*bad for PC*/
+    width: 100%; /*bad for PC*/
     height: 300px;
 }
 
-.whois-title{
+.artist-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #d6ffcc;
-    width: 150px; /*bad for PC*/
+    background: #CCE3FF;
+    width: 200px; /*bad for PC*/
     height: 50px;
     border-radius: 10px;
 }
 
-.whois-info-grid{
+.artist-info-grid{
     display: grid;
     grid-template-columns: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.whois-info-flex{
+.artist-info-flex{
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-
+.artist-button{
+    background-color: black;
+    border-radius: 10px;
+    width: auto;
+    padding: 5%;
+}
 
 

@@ -2,10 +2,10 @@
 
     display: grid;
     grid-template-columns: auto;
-    background: url("./PinkBackground.svg");
-    background-size: 100px 82px;
+    background: url("./MainSlide.svg") no-repeat;
+    background-size: 100%;
     padding-top: 20px;
-    width: 400px; /*bad for PC*/
+    width: 100%; /*bad for PC*/
     height: 300px;
 }
 

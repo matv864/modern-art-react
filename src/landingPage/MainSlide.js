@@ -4,7 +4,7 @@ function MainSlide(){
         <div className="main-slide">
             <div className="main-title">
                 <div>
-                ЦИ
+                    ЦИ
                 </div>
             </div>
             <div className="main-info-grid">
@@ -18,7 +18,7 @@ function MainSlide(){
                     </div>
                 </div>
                 <div className="main-info-flex">
-                    <a href="https://google.com" class="btn btn-dark">меню сайта</a>
+                    <a href="https://google.com" className="btn btn-dark">меню сайта</a>
                 </div>
             </div>
         </div>

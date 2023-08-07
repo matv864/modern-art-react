@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" viewBox="0 0 500 500" class="icon" opacity="1" version="1.1">
+
+<ellipse cx="450" cy="160" rx="100" ry="35"
+    transform="rotate(20, 0, 0)"
+    style="fill:#91C9F1;" />
+
+<ellipse cx="200" cy="80" rx="100" ry="35"
+    transform="rotate(40, 0, 0)"
+    style="fill:#91C9F1;" />
+
+<ellipse cx="200" cy="300" rx="80" ry="40"
+    transform="rotate(-30, 0, 0)"
+    style="fill:#91C9F1;" />
+
+<ellipse cx="80" cy="330" rx="90" ry="40"
+    transform="rotate(-10, 0, 0)"
+    style="fill:#91C9F1;" />
+
+</svg>

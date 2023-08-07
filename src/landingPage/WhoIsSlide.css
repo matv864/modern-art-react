@@ -1,0 +1,36 @@
+.whois-slide{
+    display: grid;
+    grid-template-columns: auto;
+    background: url("./WhoIsSlide.svg") no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+    width: 100%; /*bad for PC*/
+    height: 300px;
+}
+
+.whois-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d6ffcc;
+    width: 150px; /*bad for PC*/
+    height: 50px;
+    border-radius: 10px;
+}
+
+.whois-info-grid{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.whois-info-flex{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+

@@ -1,0 +1,16 @@
+.landing-page{
+    display: flex;
+
+    justify-content: center;
+    
+}
+
+.landing-column{
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .landing-column{
+        width: 60%;
+    }
+  }

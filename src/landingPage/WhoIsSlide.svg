@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" viewBox="0 0 500 500" class="icon" opacity="1" version="1.1">
+
+<ellipse cx="150" cy="220" rx="100" ry="50"
+    transform="rotate(10, 0, 0)"
+    style="fill:#D6FFCC;" />
+
+<ellipse cx="400" cy="-160" rx="150" ry="60"
+    transform="rotate(50, 0, 0)"
+    style="fill:#D6FFCC;" />
+
+<ellipse cx="300" cy="0" rx="90" ry="40"
+    transform="rotate(40, 0, 0)"
+    style="fill:#D6FFCC;" />
+
+</svg>

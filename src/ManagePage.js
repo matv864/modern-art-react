@@ -5,14 +5,14 @@ import { BrowserRouter, Routes, Route }
 
 import Header from "./header/Header"
 import ThoughtsOfArtist from "./thoughtsOfArtist/ThoughtsOfArtist"
-import MainPage from "./mainPage/MainPage";
+import LandingPage from "./landingPage/LandingPage";
 
 const ManagePage = () => {
     return (
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route exact path='/' element={<MainPage />} />
+                <Route exact path='/' element={<LandingPage />} />
                 <Route path='/thoughts-of-artist' element={<ThoughtsOfArtist />} />
             </Routes>
                 
